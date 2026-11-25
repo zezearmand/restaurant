@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Notre menu | Le Baobab Doré</title>
+<meta name="description" content="Entrées, plats sénégalais, grillades, desserts et boissons du Baobab Doré, prix en FCFA.">
+<link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="header">
+<div class="container">
+<a class="logo" href="index.html"><img src="assets/images/logo.svg" alt="" width="44" height="44">Le Baobab Doré</a>
+<button type="button" class="burger" aria-expanded="false" aria-controls="navigation">☰ Menu</button>
+<nav class="nav" id="navigation" aria-label="Navigation principale">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="apropos.html">À propos</a></li>
+<li><a href="menu.html" aria-current="page">Notre menu</a></li>
+<li class="has-sub"><a href="blog.html">Blog</a><button type="button" class="sub-toggle" aria-expanded="false" aria-label="Afficher les rubriques du blog">▼</button><ul class="sub"><li><a href="article-recette.html">Recettes</a></li><li><a href="article-astuces.html">Astuces culinaires</a></li><li><a href="article-gastronomie.html">Gastronomie</a></li></ul></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="contenu">
+<section class="hero hero-page">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Thi%C3%A9boudi%C3%A8ne_ingredients_1._vegetables%2C_spices.jpg?width=1800" alt="" fetchpriority="high">
+<div class="container">
+<p class="surtitre">La carte</p>
+<h1>Notre menu</h1>
+<p>Tous les prix sont en francs CFA, service compris.</p>
+</div>
+</section><section><div class="container"><div class="filtres" role="group" aria-label="Filtrer"><button type="button" data-filtre="tout" aria-pressed="true">Tout</button><button type="button" data-filtre="entrees" aria-pressed="false">Entrées</button><button type="button" data-filtre="plats" aria-pressed="false">Plats</button><button type="button" data-filtre="grillades" aria-pressed="false">Grillades</button><button type="button" data-filtre="desserts" aria-pressed="false">Desserts</button><button type="button" data-filtre="boissons" aria-pressed="false">Boissons</button></div><div class="categorie" id="entrees" data-categorie="entrees"><h2>Entrées</h2><ul class="liste"><li class="reveal"><div class="ligne"><h3>Pastels au poisson</h3><span class="prix">3 000 FCFA</span></div><p>Six chaussons croustillants, sauce tomate pimentée.</p></li><li class="reveal"><div class="ligne"><h3>Fataya à la viande</h3><span class="prix">3 000 FCFA</span></div><p>Chaussons dorés au bœuf et aux oignons.</p></li><li class="reveal"><div class="ligne"><h3>Salade de la Corniche</h3><span class="prix">4 500 FCFA</span></div><p>Crevettes, mangue, avocat et vinaigrette au citron vert.</p></li><li class="reveal"><div class="ligne"><h3>Soupe kandia légère</h3><span class="prix">3 500 FCFA</span></div><p>Gombo, poisson fumé et un filet d’huile de palme.</p></li></ul></div><div class="categorie" id="plats" data-categorie="plats"><h2>Plats traditionnels</h2><div class="grille"><article class="carte reveal"><div class="carte-img"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Red_Thieboudienne.JPG?width=800" alt="Thiéboudienne rouge" loading="lazy"></div><div class="carte-corps"><h3>Thiéboudienne Penda Mbaye</h3><p>Riz rouge, thiof farci, manioc, chou et aubergine amère.</p><p class="prix">8 500 FCFA</p></div></article><article class="carte reveal"><div class="carte-img"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Poulet_Yassa.JPG?width=800" alt="Poulet yassa" loading="lazy"></div><div class="carte-corps"><h3>Poulet yassa</h3><p>Citron vert, moutarde, oignons confits et riz parfumé.</p><p class="prix">7 000 FCFA</p></div></article><article class="carte reveal"><div class="carte-img"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Plat_s%C3%A9n%C3%A9galais_maf%C3%A9.jpg?width=800" alt="Mafé" loading="lazy"></div><div class="carte-corps"><h3>Mafé de bœuf</h3><p>Pâte d’arachide, tomate, patate douce et carotte.</p><p class="prix">7 500 FCFA</p></div></article></div><ul class="liste"><li class="reveal"><div class="ligne"><h3>Thiébou yapp</h3><span class="prix">7 500 FCFA</span></div><p>Riz à la viande de bœuf, oignons et olives.</p></li><li class="reveal"><div class="ligne"><h3>C’est bon</h3><span class="prix">6 500 FCFA</span></div><p>Poulet frit, oignons, frites maison et salade.</p></li><li class="reveal"><div class="ligne"><h3>Domoda au poisson</h3><span class="prix">7 000 FCFA</span></div><p>Sauce tomate liée, légumes et boulettes de poisson.</p></li><li class="reveal"><div class="ligne"><h3>Thiéré au poulet</h3><span class="prix">7 000 FCFA</span></div><p>Couscous de mil, sauce aux légumes et poulet.</p></li></ul></div><div class="categorie" id="grillades" data-categorie="grillades"><h2>Mer et grillades</h2><div class="grille"><article class="carte reveal"><div class="carte-img"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Yassa_poisson.jpg?width=800" alt="Yassa au poisson" loading="lazy"></div><div class="carte-corps"><h3>Yassa de poisson</h3><p>Poisson du jour grillé, sauce oignon-citron.</p><p class="prix">8 000 FCFA</p></div></article></div><ul class="liste"><li class="reveal"><div class="ligne"><h3>Thiof grillé entier</h3><span class="prix">12 000 FCFA</span></div><p>Selon arrivage, servi avec alloco et sauce verte.</p></li><li class="reveal"><div class="ligne"><h3>Gambas à la braise</h3><span class="prix">13 500 FCFA</span></div><p>Marinade à l’ail et au piment doux.</p></li><li class="reveal"><div class="ligne"><h3>Dibi d’agneau</h3><span class="prix">9 000 FCFA</span></div><p>Agneau grillé au feu de bois, moutarde et oignons.</p></li></ul></div><div class="categorie" id="desserts" data-categorie="desserts"><h2>Desserts</h2><ul class="liste"><li class="reveal"><div class="ligne"><h3>Thiakry</h3><span class="prix">2 500 FCFA</span></div><p>Mil, lait caillé, vanille et raisins secs.</p></li><li class="reveal"><div class="ligne"><h3>Ngalakh</h3><span class="prix">2 500 FCFA</span></div><p>Crème de mil, arachide et pulpe de baobab.</p></li><li class="reveal"><div class="ligne"><h3>Mousse au bouye</h3><span class="prix">3 000 FCFA</span></div><p>Légère et acidulée, éclats de cacahuète caramélisée.</p></li><li class="reveal"><div class="ligne"><h3>Mangue rôtie</h3><span class="prix">3 000 FCFA</span></div><p>Mangue de Casamance, miel et gingembre.</p></li></ul></div><div class="categorie" id="boissons" data-categorie="boissons"><h2>Boissons</h2><div class="grille"><article class="carte reveal"><div class="carte-img"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jus_de_bouye%2C_gingembre_et_bissap_01.jpg?width=800" alt="Jus de bouye, gingembre et bissap" loading="lazy"></div><div class="carte-corps"><h3>Trio de jus maison</h3><p>Bouye, gingembre et bissap, en dégustation.</p><p class="prix">3 500 FCFA</p></div></article><article class="carte reveal"><div class="carte-img"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sirop_bissap_01.jpg?width=800" alt="Sirop de bissap" loading="lazy"></div><div class="carte-corps"><h3>Bissap à la menthe</h3><p>Fleurs d’hibiscus infusées et menthe fraîche.</p><p class="prix">1 500 FCFA</p></div></article></div><ul class="liste"><li class="reveal"><div class="ligne"><h3>Jus de gingembre</h3><span class="prix">1 500 FCFA</span></div><p>Frais, relevé, avec une touche d’ananas.</p></li><li class="reveal"><div class="ligne"><h3>Jus de bouye</h3><span class="prix">1 500 FCFA</span></div><p>Onctueux, à la pulpe de pain de singe.</p></li><li class="reveal"><div class="ligne"><h3>Ataya</h3><span class="prix">1 500 FCFA</span></div><p>Thé à la menthe servi en trois tours.</p></li><li class="reveal"><div class="ligne"><h3>Café Touba</h3><span class="prix">1 000 FCFA</span></div><p>Café parfumé au poivre de Guinée.</p></li></ul></div></div></section><section class="beige"><div class="container"><div class="tete reveal"><p class="surtitre">Formules</p><h2>Nos menus</h2><p>Composez votre repas à prix fixe.</p></div><div class="grille formules"><article class="carte reveal"><div class="carte-corps"><h3>Midi express</h3><p>Du mardi au vendredi</p><ul><li>Plat du jour</li><li>Jus maison</li><li>Café Touba ou ataya</li></ul><p class="prix">6 500 FCFA</p></div></article><article class="carte reveal"><div class="carte-corps"><h3>Menu Teranga</h3><p>Par personne</p><ul><li>Entrée au choix</li><li>Plat traditionnel</li><li>Dessert et jus maison</li></ul><p class="prix">12 500 FCFA</p></div></article><article class="carte reveal"><div class="carte-corps"><h3>Grand bol du dimanche</h3><p>Pour quatre personnes</p><ul><li>Assortiment de pastels et fatayas</li><li>Thiéboudienne à partager</li><li>Thiakry et jus à volonté</li></ul><p class="prix">36 000 FCFA</p></div></article></div><p style="text-align:center;margin-top:30px">Allergies ou régime particulier ? Signalez-le à notre équipe avant de commander.</p></div></section>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="colonnes">
+<div><h2>Le Baobab Doré</h2><p>Cuisine sénégalaise raffinée, face à l’océan. La teranga à chaque table.</p></div>
+<div><h2>Nous trouver</h2><p>Corniche Ouest, Fann<br>Dakar, Sénégal<br>+221 33 000 00 00<br>contact@baobabdore.example</p></div>
+<div><h2>Horaires</h2><p>Mardi au jeudi : 12h – 23h<br>Vendredi et samedi : 12h – 00h<br>Dimanche : 12h – 22h<br>Lundi : fermé</p></div>
+<div><h2>Navigation</h2><ul><li><a href="index.html">Accueil</a></li><li><a href="apropos.html">À propos</a></li><li><a href="menu.html">Notre menu</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+</div>
+<div class="credits">
+<p>© 2026 Le Baobab Doré. Restaurant fictif créé dans le cadre d’un projet scolaire.</p>
+<details><summary>Crédits photos (Wikimedia Commons)</summary><p>Auteur et licence de chaque image sur sa page :</p><ul><li><a href="https://commons.wikimedia.org/wiki/File:Red_Thieboudienne.JPG" target="_blank" rel="noopener">Red Thieboudienne.JPG</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Poulet_Yassa.JPG" target="_blank" rel="noopener">Poulet Yassa.JPG</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Yassa_poisson.jpg" target="_blank" rel="noopener">Yassa poisson.jpg</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Plat_s%C3%A9n%C3%A9galais_maf%C3%A9.jpg" target="_blank" rel="noopener">Plat sénégalais mafé.jpg</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Jus_de_bouye%2C_gingembre_et_bissap_01.jpg" target="_blank" rel="noopener">Jus de bouye, gingembre et bissap 01.jpg</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Sirop_bissap_01.jpg" target="_blank" rel="noopener">Sirop bissap 01.jpg</a></li><li><a href="https://commons.wikimedia.org/wiki/File:Thi%C3%A9boudi%C3%A8ne_ingredients_1._vegetables%2C_spices.jpg" target="_blank" rel="noopener">Thiéboudiène ingredients 1. vegetables, spices.jpg</a></li></ul></details>
+</div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact | Le Baobab Doré</title>
+<meta name="description" content="Contactez et réservez au Baobab Doré, Corniche Ouest, Dakar.">
+<link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;family=Jost:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>document.documentElement.classList.add('js')</script>
+<script src="assets/js/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+<header class="header">
+<div class="container">
+<a class="logo" href="index.html"><img src="assets/images/logo.svg" alt="" width="44" height="44">Le Baobab Doré</a>
+<button type="button" class="burger" aria-expanded="false" aria-controls="navigation">☰ Menu</button>
+<nav class="nav" id="navigation" aria-label="Navigation principale">
+<ul>
+<li><a href="index.html">Accueil</a></li>
+<li><a href="apropos.html">À propos</a></li>
+<li><a href="menu.html">Notre menu</a></li>
+<li class="has-sub"><a href="blog.html">Blog</a><button type="button" class="sub-toggle" aria-expanded="false" aria-label="Afficher les rubriques du blog">▼</button><ul class="sub"><li><a href="article-recette.html">Recettes</a></li><li><a href="article-astuces.html">Astuces culinaires</a></li><li><a href="article-gastronomie.html">Gastronomie</a></li></ul></li>
+<li><a href="contact.html" aria-current="page">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="contenu">
+<section class="hero hero-page">
+<img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jus_de_bouye%2C_gingembre_et_bissap_01.jpg?width=1800" alt="" fetchpriority="high">
+<div class="container">
+<p class="surtitre">Parlons-nous</p>
+<h1>Contact</h1>
+<p>Une réservation, une question, un événement à organiser ? Écrivez-nous.</p>
+</div>
+</section>
+<section><div class="container contact">
+<form id="form-contact" action="https://formsubmit.co/VOTRE_EMAIL@example.com" method="POST" novalidate>
+<h2>Envoyez un message</h2>
+<input type="hidden" name="_subject" value="Nouveau message depuis le site Le Baobab Doré">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" class="honey" tabindex="-1" autocomplete="off">
+<div class="champ"><label for="nom">Nom et prénom</label><input type="text" id="nom" name="nom" autocomplete="name" maxlength="80" required aria-describedby="erreur-nom"><span class="erreur" id="erreur-nom" aria-live="polite"></span></div>
+<div class="champ"><label for="email">Adresse e-mail</label><input type="email" id="email" name="email" autocomplete="email" maxlength="120" required aria-describedby="erreur-email"><span class="erreur" id="erreur-email" aria-live="polite"></span></div>
+<div class="champ"><label for="sujet">Sujet</label><input type="text" id="sujet" name="sujet" autocomplete="off" maxlength="120" required aria-describedby="erreur-sujet"><span class="erreur" id="erreur-sujet" aria-live="polite"></span></div>
+<div class="champ"><label for="message">Message</label><textarea id="message" name="message" maxlength="2000" required aria-describedby="erreur-message"></textarea><span class="erreur" id="erreur-message" aria-live="polite"></span></div>
+<button type="submit" class="btn">Envoyer</button>
+<p class="statut" role="status"></p>
+</form>
+<aside class="infos">
+<h2>Nos coordonnées</h2>
+<h3>Adresse</h3><p>Corniche Ouest, Fann<br>Dakar, Sénégal</p>
+<h3>Téléphone</h3><p>+221 33 000 00 00</p>
+<h3>E-mail</h3><p>contact@baobabdore.example</p>
+<h3>Horaires</h3><p>Mardi au dimanche, à partir de 12h.<br>Fermé le lundi.</p>
+<h3>Réservation</h3><p>Précisez la date, l’heure et le nombre de personnes dans votre message.</p>
+<p style="margin-top:24px;font-size:.9rem">Coordonnées de démonstration : ce restaurant est fictif.</p>
+</aside>
+</div></section>
+</main>
+<footer class="footer">
+<div class="container">
+<div class="colonnes">
+<div><h2>Le Baobab Doré</h2><p>Cuisine sénégalaise raffinée, face à l’océan. La teranga à chaque table.</p></div>
+<div><h2>Nous trouver</h2><p>Corniche Ouest, Fann<br>Dakar, Sénégal<br>+221 33 000 00 00<br>contact@baobabdore.example</p></div>
+<div><h2>Horaires</h2><p>Mardi au jeudi : 12h – 23h<br>Vendredi et samedi : 12h – 00h<br>Dimanche : 12h – 22h<br>Lundi : fermé</p></div>
+<div><h2>Navigation</h2><ul><li><a href="index.html">Accueil</a></li><li><a href="apropos.html">À propos</a></li><li><a href="menu.html">Notre menu</a></li><li><a href="blog.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+</div>
+<div class="credits">
+<p>© 2026 Le Baobab Doré. Restaurant fictif créé dans le cadre d’un projet scolaire.</p>
+<details><summary>Crédits photos (Wikimedia Commons)</summary><p>Auteur et licence de chaque image sur sa page :</p><ul><li><a href="https://commons.wikimedia.org/wiki/File:Jus_de_bouye%2C_gingembre_et_bissap_01.jpg" target="_blank" rel="noopener">Jus de bouye, gingembre et bissap 01.jpg</a></li></ul></details>
+</div>
+</div>
+</footer>
+</body>
+</html>
